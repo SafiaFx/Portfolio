@@ -16,6 +16,7 @@
     .body {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         background-image: url("dog.jpg");
         background-size: 100rem;
         background-position-y: -130rem;
@@ -94,6 +95,7 @@
 
         .text {
             display: flex;
+            flex-wrap:wrap;
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -103,7 +105,7 @@
     .white {
         display:flex;
         flex-wrap:wrap;
-        justify-content: space-around;
+        justify-content:center;
         color: whitesmoke;
         gap:10rem;
         padding-right:1rem;
@@ -259,6 +261,12 @@
         font-size:1.5rem;
         color:whitesmoke;
     }
+
+
+
+
+
+
 
 @media only screen and (min-width: 800px) {
 
