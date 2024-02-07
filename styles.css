@@ -1,14 +1,15 @@
 .header{
     display:flex;
     flex-wrap:wrap;
-    justify-content:flex-end;
     gap:10rem;
-    align-content: center;
+    justify-content:flex-end;
     background-color:rgba(0,0,0,0.5);
     width:100vw;
     height:10rem;
     font-size:3rem;
-    padding-right:5rem;
+    align-content: flex-start;
+    padding:5rem;
+
 
 }
 
@@ -92,6 +93,8 @@ height:80rem;
 .white {
 color:whitesmoke;
 text-decoration:none;
+    padding:5rem;
+    padding-right:2rem;
 }
 
 .yellow{
@@ -109,7 +112,7 @@ color:#ffae42;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    gap:20rem;
+    gap:30rem;
     padding:10rem;
 
     .magnify {
@@ -126,8 +129,9 @@ color:#ffae42;
     padding:5rem;
     margin:2rem;
     background-color:darkgrey;
-    height:40rem;
-    width:60rem;
+    height:60rem;
+    width:80rem;
+    margin:10rem;
 }
 
 .footer {
@@ -144,7 +148,12 @@ color:#ffae42;
     color: rgba(255,255,255,0.25);
     font-size:3rem;
 }
+.white-2 {
 
+    color:whitesmoke;
+    text-decoration:none;
+
+}
 @media only screen and (min-width: 1000px) {
 
 
