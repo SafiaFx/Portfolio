@@ -7,46 +7,66 @@
     <link rel="stylesheet" type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles.css">
-
+    <script src="https://kit.fontawesome.com/a767a9281d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Rubik+Glitch+Pop&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap')
+    </style>
 </head>
 
 <body class="body">
-<p></p>
 <header class="header">
-    <a class="white" href="index.html"><div>Home</div></a>
-   <a class="white" href="about.html"> <div>About</div></a>
-   <a class="white" href="contact.html"><div>Contact</div></a>
-   <a class="white" href="projects.html"><div>Projects</div></a>
+    <a class="white link-1 link" href="index.html">
+        <div>Home</div>
+    </a>
+    <a class="white link-1 link" href="about.html">
+        <div>About</div>
+    </a>
+    <a class="white link-1 link" href="contact.html">
+        <div>Contact</div>
+    </a>
+    <a class="white link-1 link" href="projects.html">
+        <div>Projects</div>
+    </a>
 </header>
 
 <div class="images-1">
     <div>
 
-        <div class="icons magnify">
-        <a href="https://github.com/SafiaFx">
-            <div class="icon magnify">
-                <i class="fa fa-github-square" aria-hidden="true"></i></div>
-        </a>
-        <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">
-            <div class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
-        </a>
-        <a href="">
-            <div class="icon"><i>
-                <i class="fa fa-download" aria-hidden="true"></i></i></div>
-        </a>
-    </div>
+        <div class="icons">
+
+            <a href="https://github.com/SafiaFx"> <div class="icon link-1">
+                    <i class="fa fa-github-square" aria-hidden="true"></i></div>
+            </a>
+
+            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">
+                <div class="icon link-1"><i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
+            </a>
+
+            <a href=""><div class="icon link-1"><i>
+                    <i class="fa fa-download" aria-hidden="true"></i></div>
+            </a>
+
+        </div>
 
 
-    <img class="image-1" src="marble-orange-background.jpg"></div>
+        <img class="image-1" src="yellow-background.jpg"></div>
 
-<img class="image-2" src="image0.jpeg">
+    <img class="image-2" src="portrait-1.jpg">
 </div>
 
+<img class="image-3" src="cat-1.jpg"></div>
+
+<img class="image-4" src="cat-2.jpg">
 
 <div class="text-box">
     <div class="text">
         <div class="white-2">I'm&nbsp;</div>
-        <div class="yellow">Safia Fareed</div>
+        <a href="about.html"><div class="yellow">Safia Fareed</div></a>
     </div>
 </div>
 <p class="white text-2">Full Stack Web Developer</p>
@@ -55,11 +75,11 @@
 <i class="fa-solid fa-shield"></i>
 
 <div class="project-box">
-    <div class="projects">Project 1 </div>
-    <div class="projects">Project 2</div>
-    <div class="projects">Project 3</div>
-    <div class="projects">Project 4</div>
-    <div class="projects">Project 5</div>
+    <div class="projects magnify">Project 1 <i class="fa-solid fa-shield-cat"></i></div>
+    <div class="projects magnify">Project 2 <i class="fa-solid fa-shield-dog"></i></div>
+    <div class="projects magnify">Project 3 <i class="fa-solid fa-shield-heart"></i></div>
+    <div class="projects magnify">Project 4 <i class="fa-solid fa-shield"></i></div>
+    <div class="projects magnify">Project 5 <i class="fa-solid fa-shield-halved"></i></div>
 </div>
 
 <div class="contact">
@@ -71,31 +91,24 @@
 <p class="white text-2">Fill in this form to enquire</p>
 <br>
 
-
-<form class="form">
-
-   <row class="row row-1"> <label class="white text-2" for="Name">Name:</label><br>
-    <input class="white text-2"type="text" id=Name name="Name"><br>
-    </row>
-
-    <row class="row"><label class="white text-2"for="Email">Email:</label><br>
-    <input class="white text-2"type="text" id="Email" name="Email">
-    </row>
-
-   <row class="row-3 row"><label class=" white text-2"for="Message">Message:</label><br>
-    <input class="white text-2"type="text" id=Message name="Message"><br>
-    </row>
+<div class="row row-1"> <label class="white text-2" for="Name">Name</label><br>
+<input class="white text-2"type="text" id=Name name="Name"><br></div>
+<div class="row row-2"><label class="white text-2"for="Email">Email</label><br>
+<input class="white text-2"type="text" id="Email" name="Email">
+</div>
+<div class="row-3 row"><label class=" white text-2"for="Message">Message</label><br>
+<input class="white text-2"type="text" id=Message name="Message"><br>
+</div>
 </form>
 <div class="button-div">
-<button class="button"><center>Submit</center></button>
+
+    <button class="button">
+        <center>Submit</center>
+    </button>
+
 </div>
-<footer class="footer">&copy; 2024 Safia Fareed. All Rights Reserved. | </footer>
+<footer class="footer">&copy; 2024 Safia Fareed. All Rights Reserved. |</footer>
 </body>
-
-</body>
-</html>
-
-
 
 
 </html>
