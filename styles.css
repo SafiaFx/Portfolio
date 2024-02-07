@@ -1,54 +1,51 @@
 .header{
-    display:flex;
+    display:inline-flex;
     flex-wrap:wrap;
-    gap:10rem;
+    gap:1rem;
     justify-content:flex-end;
     background-color:rgba(0,0,0,0.5);
     width:100vw;
     height:10rem;
-    font-size:3rem;
+    font-size:1.5rem;
     align-content: flex-start;
-    padding:5rem;
-
-
 }
 
 .body {
     display: flex;
     flex-wrap: wrap;
-    border-radius:50px;
     flex-direction: column;
     background-color: #2d2d2d;
     background-image:url("dog.jpg");
+    background-size:100rem;
+    background-position-y: -115rem;
     font-family: verdana, sans-serif;
 }
 
 .images-1 {
     display:flex;
     justify-content:flex-start;
-height:80rem;
-    width:80rem;
-    padding:5rem;
-    margin:5rem;
-    margin-bottom:5rem;
+height:40rem;
+    width:40rem;
+    padding:2.5rem;
 }
 
 .image-1 {
-    height:60rem;
-    width:60rem;
-    padding:5rem;
-    margin:-10rem;
-    margin-left:5rem;
-    background-size:4rem;
+    height:30rem;
+    width:30rem;
+    padding:2rem;
+    margin:-5rem;
+    margin-left:1rem;
+    background-size:2rem;
+    border: solid thin black;
 }
 
 .image-2 {
-    height:60rem;
-    width:60rem;
-    padding:5rem;
+    height:30rem;
+    width:30rem;
+    padding:2rem;
     margin-left:-10rem;
     border: solid #ffae42;
-    margin-right:0rem;
+    margin-right:2rem;
     image-orientation: revert;
 
 }
@@ -59,9 +56,9 @@ height:80rem;
     color:white;
     flex-direction:column;
     align-content:space-evenly;
-    font-size:2rem;
-    padding-bottom:10rem;
-    margin-left:-15rem;
+    font-size:1rem;
+    padding-bottom:5rem;
+    margin-left:-7.5rem;
 }
 
 
@@ -69,32 +66,35 @@ height:80rem;
         display:flex;
         color:white;
         flex-wrap:wrap;
-        padding:2rem;
-        font-size:100px;
+        padding:1rem;
+        font-size:50px;
     }
 .text-box{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
     width:100%;
-    padding:2rem;
-    margin:3rem;
-    padding-top:20rem;
+    padding:1rem;
+    margin:1.5rem;
+    padding-top:10rem;
 }
     .text{
         display:flex;
         justify-content:center;
         flex-wrap:wrap;
-        font-size:6rem;
+        font-size:3rem;
         text-align:center;
+        align-content:center;
+        display:flex;
+        flex-wrap:wrap;
+
 
     }
 
 .white {
 color:whitesmoke;
 text-decoration:none;
-    padding:5rem;
-    padding-right:2rem;
+    padding:1rem;
 }
 
 .yellow{
@@ -104,7 +104,7 @@ color:#ffae42;
     display:flex;
     flex-wrap:wrap;
     align-content:center;
-    font-size:4rem;
+    font-size:2rem;
     justify-content:center;
 }
 
@@ -112,8 +112,8 @@ color:#ffae42;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    gap:30rem;
-    padding:10rem;
+    gap:15rem;
+    padding:5rem;
 
     .magnify {
         transition: transform 0.3s;
@@ -126,12 +126,12 @@ color:#ffae42;
 .projects {
     display:flex;
     flex-wrap:wrap;
-    padding:5rem;
-    margin:2rem;
+    padding:2.5rem;
+    margin:1rem;
     background-color:darkgrey;
-    height:60rem;
-    width:80rem;
-    margin:10rem;
+    height:30rem;
+    width:40rem;
+    margin:5rem;
 }
 
 .footer {
@@ -140,13 +140,13 @@ color:#ffae42;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height:10rem;
+    height:5rem;
     background-color: rgba(0,0,0,0.25);
     justify-content:center;
     align-content:center;
-    padding: 10px;
+    padding: 5px;
     color: rgba(255,255,255,0.25);
-    font-size:3rem;
+    font-size:1.5rem;
 }
 .white-2 {
 
@@ -154,7 +154,71 @@ color:#ffae42;
     text-decoration:none;
 
 }
-@media only screen and (min-width: 1000px) {
 
 
+@media only screen and (min-width: 800px) {
+
+    .header {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: flex-end;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100vw;
+        height: 5rem;
+        font-size: 1.5rem;
+        align-content: flex-start;
+        padding: 2.5rem;
+    }
+
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2.5rem;
+        margin: 1rem;
+        background-color: darkgrey;
+        height: 25rem;
+        width: 35rem;
+        margin: 5rem;
+    }
+
+    .project-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 5rem;
+        padding: 5rem;
+
+    }
+
+    .images-1 {
+        display: flex;
+        justify-content: flex-start;
+        height: 40rem;
+        width: 40rem;
+        padding: 2.5rem;
+        margin-left:7rem;
+    }
+
+    .image-1 {
+        height: 30rem;
+        width: 30rem;
+        padding: 2rem;
+        margin: -5rem;
+        margin-left: 1rem;
+        background-size: 2rem;
+        border: solid thin black;
+    }
+
+    .image-2 {
+        height: 30rem;
+        width: 30rem;
+        padding: 2rem;
+        margin-left: -10rem;
+        border: solid #ffae42;
+        margin-right: 2rem;
+        image-orientation: revert;
+
+    }
 }
