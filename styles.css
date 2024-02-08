@@ -435,7 +435,53 @@
         font-size:2rem;
         border-radius:10px;
     }
+    .img-1 {
+        display: flex;
+        flex-wrap: wrap;
+        text-align:center;
+        justify-content: center;
+        align-content: center;
+        padding: 2.5rem;
+        background-image:url("cat-2.jpg");
+        background-size:35rem;
+        height: 25rem;
+        width: 35rem;
+        margin: 5rem;
+        font-size:2rem;
+        border-radius:10px;
+    }
 
+    .img-2 {
+        display: flex;
+        flex-wrap: wrap;
+        text-align:center;
+        justify-content: center;
+        align-content: center;
+        padding: 2.5rem;
+        background-image:url("gun-robot.jpg");
+        background-size:35rem;
+        height: 25rem;
+        width: 35rem;
+        margin: 5rem;
+        font-size:2rem;
+        border-radius:10px;
+    }
+
+    .img-3{
+        display: flex;
+        flex-wrap: wrap;
+        text-align:center;
+        justify-content: center;
+        align-content: center;
+        padding: 2.5rem;
+        background-image:url(cat-1.jpg);
+        background-size:35rem;
+        height: 25rem;
+        width: 35rem;
+        margin: 5rem;
+        font-size:2rem;
+        border-radius:10px;
+    }
     .footer {
         display: flex;
         flex-wrap: wrap;
