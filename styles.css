@@ -20,7 +20,7 @@
         flex-direction:column;
         background-image: url("dog.jpg");
         background-size: 100rem;
-        background-position-y: -130rem;
+        background-position-y: -150rem;
         font-family:sans-serif;
         width:100vw;
     }
@@ -109,7 +109,7 @@
         gap:1rem;
         padding-right:1rem;
         text-decoration: none;
-        font-size:1rem;
+        font-size:2rem;
 
     }
 
@@ -339,7 +339,6 @@
         align-items: center;
         text-align: center;
         font-size: 3rem;
-        margin-top:0rem;
         text-decoration: none;
     }
 
@@ -383,10 +382,12 @@
 
     .contact {
         display: flex;
+        flex-wrap:wrap;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin-top: 3rem;
+        margin-top: 1rem;
+        padding:5rem;
     }
 
     .project-box {
@@ -474,6 +475,16 @@
         height: 10rem;
         margin-left: -3rem;
     }
+    .body {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        flex-direction:column;
+        background-image: url("dog.jpg");
+        background-size: 100rem;
+        background-position-y: -117.5rem;
+        font-family:sans-serif;
+        width:100vw;
 
     .button-div {
         display: flex;
@@ -496,26 +507,6 @@
         border-radius: 5px;
         font-size: 1.5rem;
         margin-bottom: 10rem;
-    }
-
-    .image-3 {
-        display: none;
-        height: 30rem;
-        width: 30rem;
-        padding: 2rem;
-        margin-left: 1rem;
-        background-size: 2rem;
-        border: solid thin black;
-    }
-
-    .image-4 {
-        display: none;
-        height: 30rem;
-        width: 30rem;
-        padding: 2rem;
-        margin-left: 1rem;
-        background-size: 2rem;
-        border: solid thin black;
     }
 
     .about {
@@ -543,8 +534,9 @@
         justify-content: flex-start;
         height: 40rem;
         width: 40rem;
-        padding: 2.5rem;
+        padding: 2rem;
         margin-left: 7rem;
+        margin-bottom:5rem;
     }
     .image-1 {
         height: 30rem;
