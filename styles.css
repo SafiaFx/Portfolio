@@ -141,6 +141,7 @@
 
 .contact {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -150,13 +151,21 @@
     .project-box {
         display: flex;
         flex-wrap: wrap;
-        gap: 20rem;
+        gap: 7.5rem;
         padding: 1rem;
         color:white;
         font-size:10rem;
 
     }
-
+.icon-3 { display: flex;
+    color:white;
+    flex-wrap: wrap;
+    padding: 1rem;
+    font-size: 100px;
+    box-shadow:black;
+    text-decoration: none;
+    text-underline:none;
+}
 .icon {
     display: flex;
     color:white;
@@ -174,8 +183,9 @@
         text-align:center;
         justify-content: center;
         align-content: center;
-        padding: 2.5rem;
+        padding: 2rem;
         background-image:url("yellow-background.jpg");
+        background-size:35rem;
         height: 25rem;
         width: 35rem;
         margin: 5rem;
@@ -362,9 +372,9 @@
         gap:10rem;
         padding:2rem;
         margin:2rem;
-        margin-top:10rem;
-        text-decoration: none;
-        font-size:2rem;
+        margin-top:25rem;
+        text-decoration: underline;
+        font-size:3rem;
     }
 
     .yellow {
@@ -386,7 +396,6 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin-top: 1rem;
         padding:5rem;
     }
 
@@ -419,6 +428,7 @@
         align-content: center;
         padding: 2.5rem;
         background-image:url("yellow-background.jpg");
+        background-size:35rem;
         height: 25rem;
         width: 35rem;
         margin: 5rem;
