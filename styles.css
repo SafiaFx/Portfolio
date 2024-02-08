@@ -4,7 +4,6 @@
     display: flex;
     align-content: center;
     flex-wrap: wrap;
-    width:100vw;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0);
     height: 10rem;
@@ -36,48 +35,40 @@
     }
 
     .image-1 {
-        height:30rem;
-        width: 30rem;
-        padding: 2rem;
-        margin-left: 1rem;
-        background-size: 2rem;
+        height:15rem;
+        width: 15rem;
+        padding: 1rem;
+        margin-left: 0.5rem;
+        background-size: 1rem;
         border: solid thin black;
-        border-radius:10px;
+        border-radius:5px;
+        margin-top:-10rem;
     }
 
     .image-2 {
-        height: 30rem;
-        width: 30rem;
-        padding: 2rem;
-        margin-left: -10rem;
+        height: 15rem;
+        width: 15rem;
+        padding: 1rem;
+        margin-left: -5rem;
         border: solid #ffae42;
-        margin-right: 2rem;
+        margin-right: 1rem;
         image-orientation: revert;
-        border-radius:10px;
+        border-radius:5px;
 
     }
 
     .icons {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
         align-content: space-evenly;
-        font-size: 1rem;
-        padding-bottom: 5rem;
-        padding-right:6rem;
+        padding-bottom: 10rem;
+        margin-bottom:1rem;
+        padding-right:2rem;
+        padding-left:1.5rem;
+        margin-right:2.5rem;
     }
 
-
-    .icon {
-        display: flex;
-        color:white;
-        flex-wrap: wrap;
-        padding: 1rem;
-        font-size: 50px;
-        box-shadow:black;
-        text-decoration: none;
-        text-underline:none;
-    }
 
     /*Transformations*/
 
@@ -94,6 +85,7 @@
         padding:1rem;
         margin: 1rem;
         padding-top:5rem;
+        text-decoration: none;
     }
 
         .text {
@@ -134,6 +126,7 @@
 
     .yellow {
         color: #ffae42;
+        text-decoration: none;
     }
 
     .text-2 {
@@ -161,6 +154,17 @@
         font-size:10rem;
 
     }
+
+.icon {
+    display: flex;
+    color:white;
+    flex-wrap: wrap;
+    padding: 1rem;
+    font-size: 35px;
+    box-shadow:black;
+    text-decoration: none;
+    text-underline:none;
+}
 
     .projects {
         display: flex;
@@ -195,6 +199,7 @@
     .white-2 {
 
         color: whitesmoke;
+        text-decoration: none;
 
     }
 
@@ -288,22 +293,28 @@
 
 
 
-@media only screen and (min-width: 800px) {
 
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 800px) {
     .header {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
         justify-content: flex-end;
         background-color: rgba(0, 0, 0, 0.5);
-        width: 100vw;
         height: 2rem;
         font-size: 1.5rem;
         align-content: flex-start;
         padding: 2.5rem;
     }
-
-
     .projects {
         display: flex;
         flex-wrap: wrap;
@@ -312,16 +323,13 @@
         width: 35rem;
         margin: 5rem;
     }
-
     .project-box {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         gap: 5rem;
         padding: 5rem;
-
     }
-
     .images-1 {
         display: flex;
         justify-content: flex-start;
@@ -330,44 +338,43 @@
         padding: 2.5rem;
         margin-left: 7rem;
     }
-
     .image-1 {
-        height: 20rem;
-        width: 20rem;
+        height: 30rem;
+        width: 30rem;
         padding: 2rem;
         margin: -5rem;
         margin-left: 1rem;
         background-size: 2rem;
         border: solid thin black;
+        margin-top:-10rem;
     }
-
     .image-2 {
-        height: 20rem;
-        width: 20rem;
+        height: 30rem;
+        width: 30rem;
         padding: 2rem;
-        margin-left: -10rem;
+        margin-left: -15rem;
         border: solid #ffae42;
         margin-right: 2rem;
         image-orientation: revert;
-
     }
-
-    .image-3 {
-        height: 30rem;
-        width: 30rem;
-        padding: 2rem;
-        margin-left: 1rem;
-        background-size: 2rem;
-        border: solid thin black;
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        align-content: space-evenly;
+        font-size: 1rem;
+        padding-right:6rem;
+        padding-left:0.5rem;
     }
-
-    .image-4 {
-        height: 30rem;
-        width: 30rem;
-        padding: 2rem;
-        margin-left: 1rem;
-        background-size: 2rem;
-        border: solid thin black;
+    .icon{
+        display: flex;
+        color:white;
+        flex-wrap: wrap;
+        padding: 1rem;
+        font-size: 50px;
+        box-shadow:black;
+        text-decoration: none;
+        text-underline:none;
     }
 
 
