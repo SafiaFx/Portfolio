@@ -116,6 +116,20 @@
         padding-right:1rem;
         text-decoration: none;
         font-size:1.5rem;
+
+    }
+
+    .white-3{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        color: whitesmoke;
+        gap:10rem;
+        padding:2rem;
+        margin:2rem;
+        margin-top:10rem;
+        text-decoration: none;
+        font-size:2rem;
     }
 
     .yellow {
@@ -141,9 +155,10 @@
     .project-box {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 10rem;
+        gap: 20rem;
         padding: 1rem;
+        color:white;
+        font-size:10rem;
 
     }
 
